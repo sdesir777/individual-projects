@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+header {
+    background: linear-gradient(to right, #4a90e2, #357ab7);
+    color: white;
+}
+
+header .btn-primary {
+    background-color: #ff6f61;
+}
+
+header .btn-primary:hover {
+    background-color: #e68900;
+}
+
+.card{
+    box-shadow: 0 px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ff6f61;
+}
